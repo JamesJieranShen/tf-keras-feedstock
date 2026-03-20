@@ -1,5 +1,5 @@
 {% set name = "tf-keras" %}
-{% set version = "2.19.0" %}
+{% set version = "2.20.1" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=1.23
-    - tensorflow >=2.19,<2.20
+    - tensorflow >=2.20,<2.21
 
 test:
   imports:
